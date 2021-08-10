@@ -4,3 +4,4 @@ print(varstr)
 name = "TrungNEMO"
 #Concatenation
 print("Hello " + name)
+print("Hello " + name)
