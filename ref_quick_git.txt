@@ -1,0 +1,22 @@
+--------------------------------------------------
+By      TrungVan
+Date    20210812
+Todo    The following is a basic commands of gits
+--------------------------------------------------
+config 1
+    git config --global user.[ten git user name]
+    git config --global email.[email used to logon to github]
+    
+
+command 1: git init
+    get in the project folder name , name should be the same of a project name of git-hub
+    to ini the git setting local
+command 2: git remote add <name> <branchname: master>
+    add a projectname mapped with git priject url , for the latter usage
+command 3: git add [file]/ git add .
+    when you make any change to a file or all files then mark for git 
+command 4: git commit -m "the comment for the changes you made to the added source files"
+coomand 5: git push remote <url> <branchname> or git push <projectname> <branchname>
+command 6: git status / git log
+    show all the changes and commit logs of the project
+command 7: git pull remote <url> <branchname> / git pull <project mapped name> <branchname>

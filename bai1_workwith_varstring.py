@@ -3,6 +3,13 @@
 #   reference links
 #   https://www.journaldev.com/24588/python-string-functions
 #1 Declar a String var
+# the left part is the variable name
+""" Rules for Python variables:
+    A variable name must start with a letter or the underscore character
+    A variable name cannot start with a number
+    A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+    Variable names are case-sensitive (age, Age and AGE are three different variables)
+ """
 varstr = "Welcome to Python Programming in 1 hour"
 print(varstr)
 name = "TrungNEMO"
@@ -37,7 +44,7 @@ if name.islower():
 else:
     print("Ten viet hoa " + name)
 #3.6 Count words in string
-s = 'I like Python programming. Python is Awesome! That is why i teach my son Python'
+s = 'I like Python programming. Python is Awesome! That is why i teach my son Python!'
 print(f'Number of occurrence of "Python" in String = {s.count("Python")}')
 #3.7 Input 
 s = input('Please enter a string:\n')
