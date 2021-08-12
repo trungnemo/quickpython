@@ -37,7 +37,7 @@ if name.islower():
 else:
     print("Ten viet hoa " + name)
 #3.6 Count words in string
-s = 'I like Python programming. Python is Awesome!'
+s = 'I like Python programming. Python is Awesome! That is why i teach my son Python'
 print(f'Number of occurrence of "Python" in String = {s.count("Python")}')
 #3.7 Input 
 s = input('Please enter a string:\n')
