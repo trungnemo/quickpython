@@ -47,3 +47,4 @@ print(numbers)
 #   remove a value
 numbers.remove(6)
 print(numbers)
+# how about 
