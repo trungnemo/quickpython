@@ -5,7 +5,7 @@
 #-----------------------------------------------------------------   
 import math
 #1 math cell
-print(math.cell(23.53))
+print(math.ceil(23.53))
 #2 math floor
 print(math.floor(12.58))
 #3 math sqrt
