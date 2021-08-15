@@ -20,7 +20,6 @@ print(x ** y)
 print(x // y)
 #Modulus: get the remainder 1
 print(x % y)
-
 # 3 Python Assignment Operators
 # -----
 x = 5	
@@ -38,6 +37,7 @@ x //= 3	#x = x // 3
 print(x)
 x **= 3	#x = x ** 3	
 print(x)
+x = 5	
 x &= 3	#x = x & 3	
 print(x)
 x |= 3	#x = x | 3	
@@ -47,8 +47,5 @@ print(x)
 x >>= 3	#x = x >> 3	
 print(x)
 x <<= 3	#x = x << 3
-
-
 #2 Declare a float var
 f = 3.341
-
